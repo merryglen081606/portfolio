@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <div class="container">
+        <div class="login__form">
+            <div class="text">
+                <h1>Sign In</h1>
+                <p>Welcome back! Please enter your credentials</p>
+            </div>
+            <div class="login__inputs">
+                <div>Email</div>
+                <input type="text" name="email" id="email" placeholder="Enter your email">
+                <div>Password</div>
+                <input type="text" name="email" id="email" placeholder="Enter your password">
+                <button class="sigin_button">Signin</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    :root {
+        --text-primary: #ffffff;
+        }
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    .container{
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background-color: #f4f4f4;
+
+    }
+    .container .login__form{
+        background-color: #ffffff;
+        height: auto;
+        width: fit-content;
+        width: 460px;
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    .login__form h1{
+        text-align: center;
+        margin-bottom: 5px;
+        font-family: "Roboto", serif;
+    }
+    .login__form p{
+        font-family: "Roboto", serif;
+        text-align: center;
+        font-size: 14px;
+    }
+    .login__inputs{
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid red;
+    }
+    .login__inputs input{
+        margin-top: 5px;
+        margin-bottom: 20px;
+        height: 40px;
+        padding: 10px;
+        width: 100%;
+        border-radius: 8px;
+        outline: none;
+        border: 1px solid gray;
+    }
+    .sigin_button{
+        margin-top: 20px;
+        height: 40px;
+        padding: 10px;
+        border-radius: 8px;
+        width: 100%;
+        border: none;
+    }
+</style>
