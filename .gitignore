@@ -14,7 +14,6 @@ Templates/
 *.zip
 *.sql
 *.docx
-*.pdf
 *.pptx
 *.ini
 *.log
