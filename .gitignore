@@ -1,0 +1,22 @@
+echo "Application Data/
+Cookies/
+Local Settings/
+My Documents/
+NetHood/
+PrintHood/
+Recent/
+SendTo/
+Start Menu/
+Templates/
+*.lnk
+*.exe
+*.rar
+*.zip
+*.sql
+*.docx
+*.pdf
+*.pptx
+*.ini
+*.log
+*.cache
+npm-cache/" >> .gitignore
